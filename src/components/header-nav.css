@@ -1,0 +1,24 @@
+nav {
+  position: relative;
+  height: 10%;
+  padding: 1em; }
+  nav ul {
+    content: "";
+    display: block;
+    list-style: none;
+    clear: both; }
+    nav ul :first-child {
+      float: left; }
+    nav ul :last-child {
+      float: right; }
+    nav ul li {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.2em; }
+  nav a {
+    color: white;
+    text-decoration: none; }
+
+.status-link {
+  z-index: 100;
+  top: 60px; }

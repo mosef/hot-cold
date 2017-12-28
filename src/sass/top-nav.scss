@@ -1,0 +1,30 @@
+@import 'vars';
+
+nav {
+  position: relative;
+  height: 10%;
+  padding: 1em;
+  vertical-align: baseline;
+    ul {
+      @include clearFix;
+      :first-child {
+        float: left;
+      }
+      :last-child {
+        float: right;
+      }
+        li {
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 1.2em;
+        }
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+}
+.status-link {
+  z-index: 100;
+  top: 60px;
+}
