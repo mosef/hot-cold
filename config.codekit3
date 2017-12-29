@@ -80,6 +80,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/src\/components\/box.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/src\/components\/box-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/src\/components\/feedback.css": {
 		"aP": 1,
 		"bl": 0,
@@ -708,7 +718,7 @@
 			"active": 0
 			}
 		},
-	"babelPresetType": 193,
+	"babelPresetType": 225,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
